@@ -1,0 +1,9 @@
+set1={10,20,30,10,50,10,90,80}
+print(set1)
+#sorting=sorted(set1)
+sorting=sorted(set1,reverse=True)
+mx=max(sorting)
+mn=min(sorting)
+print(mx,mn)
+##sorting=sorted(list(set1))
+print(sorting)
