@@ -1,0 +1,12 @@
+list1=[10,20,30,4,50,60]
+list2=[50,6,0,70,8,9]
+l1=set(list1)
+l2=set(list2)
+new=l1.intersection(l2)
+new1=l1.union(l2)
+#print(new)
+def common(list1,list2):
+    return bool(set(list1).intersection(set(list2)))
+
+
+print(common(list1,list2))
