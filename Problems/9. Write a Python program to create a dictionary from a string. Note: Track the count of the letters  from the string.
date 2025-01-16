@@ -1,0 +1,13 @@
+str1='Helloworld'
+str2='hellonaveen'
+lcount={}
+def dictsr(str):
+    for char in str:
+        if char.isalpha():
+            char=char.lower()
+            if char in lcount:
+                lcount[char]+=1
+            else:
+                lcount[char]=1
+    return lcount
+print(dictsr(str2))
