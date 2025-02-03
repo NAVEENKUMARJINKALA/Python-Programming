@@ -1,6 +1,0 @@
-tuple=[(1, 2), (1, 3), (2, 4), (1, 5), (2, 6), (3, 7)]
-sortt=sorted(tuple)
-#sort=sorted(tuple, key=lambda x:x[-1])
-#print(sortt)
-sorts=sorted(tuple, key=lambda x:x[-1])
-print(sorts)
