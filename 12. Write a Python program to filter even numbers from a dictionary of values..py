@@ -1,0 +1,9 @@
+d1={'g1':[2,4,6,8,11,25,30],
+    'g2':[5,7,8,9,10]}
+rs={}
+for key,value in d1.items():
+    rs[key]=[num for num in value if num%2==0]
+print(rs)
+print(d1)
+
+
